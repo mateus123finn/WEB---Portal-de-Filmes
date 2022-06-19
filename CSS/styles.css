@@ -1,0 +1,139 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background: #212529;
+}
+
+main {
+    background: #212529;
+}
+
+a {
+    font-size: large;
+    margin-block: -5px;
+}
+
+h2, h6, h5, h4 ,p{
+    color: white;
+}
+
+.dif2 h2{
+    color: black;
+}
+
+.dif2 h6{
+    color: black;
+}
+.dif2 h5{
+    color: black;
+}
+.dif2 h4{
+    color: black;
+}
+.dif2 p{
+    color: black;
+}
+
+p.card-text {
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+
+.header {
+    background: #212529;
+}
+
+img.navbar-brand {
+    width: 150px;
+    height: 130px;
+    margin-right: 25px;
+}
+
+.dif2{
+    background-color: #ddd;
+}
+
+.container {
+    text-align: justify;
+}
+
+.carousel-item {
+    color: black;
+    font-size: 14px;
+}
+
+.carousel-indicators {
+    top: 90%;
+}
+
+.container-info {
+    margin-right: 18%;
+    margin-bottom: 10%;
+}
+
+@media screen and (max-width: 992px) {
+    .carousel-item img {
+        width: 80%;
+        padding-left: 20%;
+    }
+
+    .container-info {
+        margin-top: 10%;
+        padding-left: 10%;
+        margin-right: 18%;
+        margin-bottom: 10%;
+    }
+
+    .saia{
+        display:none;
+    }
+}
+@media screen and (min-width: 992px) {
+    .carousel-item img {
+        width: 58%;
+        padding-left: 20%;
+    }
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-header-container {
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 0;
+}
+
+.profile-header-img {
+    padding: 54px;
+}
+
+img.img-circle {
+    width: 100%;
+    height: 100%;
+}
+
+.fa {
+    color: white;
+    width: 50px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+.footertext {
+    margin-top: 15px;
+    align-self: center;
+    color: #212529;
+}
